@@ -190,6 +190,24 @@ A: 可以添加：
 - 多模态支持
 - 更复杂的记忆策略
 
+## 依赖
+
+项目使用 Python 3.11+ 开发，主要依赖如下：
+
+| 依赖 | 版本 | 用途 |
+|------|------|------|
+| langchain | >=0.3.0 | 核心框架 |
+| langchain-core | >=0.3.0 | 核心组件 |
+| langchain-openai | >=0.2.0 | OpenAI 兼容接口 |
+| langchain-huggingface | >=0.1.0 | HuggingFace 嵌入 |
+| langchain-chroma | >=0.1.0 | Chroma 集成 |
+| langgraph | >=0.2.50 | Agent 工作流 |
+| chromadb | >=0.4.0 | 向量数据库 |
+| sentence-transformers | >=2.2.0 | 本地 Embedding 模型 |
+| python-dotenv | >=1.0.0 | 环境变量 |
+
+> ⚠️ 以上依赖均为开源项目，LLM 推理需要自备 DeepSeek API Key。
+
 ## 学习资源
 
 - [LangGraph 官方文档](https://langchain-ai.github.io/langgraph/)
